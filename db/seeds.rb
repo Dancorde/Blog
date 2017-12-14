@@ -9,6 +9,6 @@
 u = Author.new
 u.name = "Danilo Cordeiro"
 u.email = "danilo@email.com"
-u.password = "123"
-u.password_confirmation = "123"
+u.password = "123456"
+u.password_confirmation = "123456"
 u.save
