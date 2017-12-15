@@ -11,11 +11,12 @@
 // about supported directives.
 //
 //= require jquery
+//= require popper
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
 
 document.addEventListener("turbolinks:load", function() {
   tinymce.remove();
