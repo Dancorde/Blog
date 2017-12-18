@@ -7,4 +7,10 @@
     <h1><%= @post.title %></h1>
     <h6><%= @post.display_day_published %></h6>
     <%= @post.body.html_safe %>
+
+    <div class="author-bio">
+      <%= image_tag(@post.author.gravatar_image_url) %>
+      <h4><%= @post.author.name %></h4>
+      <p class="bio"><%= @post.author.bio %></p>
+    </div>
 </div>
